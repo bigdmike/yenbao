@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>首頁</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">    
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+</head>
+<body>
+
+   <div id="fullmenu" style="padding-top:50%;width:100%;height:100%;background-color:#ffdfbc;display:none;">
+
+       <div class="col-xs-4" style="margin-bottom:50px;text-align:center;padding-top:15px;">        
+           <a href="活動專區.html">
+               <span class="glyphicon glyphicon-bullhorn" style="font-size: 30px;color:#ff6a00;" aria-hidden="true"></span>
+               <h6>活動消息</h6>
+               </a>
+       </div>
+       <div class="col-xs-4" style="margin-bottom:50px;text-align:center;padding-top:15px;">
+           <a href="線上商城.html">
+               <span class="glyphicon glyphicon-shopping-cart" style="font-size: 30px;color:#ff6a00;" aria-hidden="true"></span>
+               <h6>線上商城</h6>
+           </a>
+       </div>
+       <div class="col-xs-4" style="margin-bottom:50px;text-align:center;padding-top:15px;">
+           <a href="知識分享.html">
+               <span class="glyphicon glyphicon-book" style="font-size: 30px;color:#ff6a00;" aria-hidden="true"></span>
+               <h6>知識分享</h6>
+           </a>
+       </div>
+       <div class="col-xs-4" style="margin-bottom:50px;text-align:center;padding-top:15px;">
+           <a href="會員專區.html">
+               <span class="glyphicon glyphicon-user" style="font-size: 30px;color:#ff6a00;" aria-hidden="true"></span>
+               <h6>會員專區</h6>
+           </a>
+       </div>      
+       <div class="col-xs-4" style="margin-bottom:50px;text-align:center;padding-top:15px;">
+           <a href="服務據點.html">
+               <span class="glyphicon glyphicon-earphone" style="font-size: 30px;color:#ff6a00;" aria-hidden="true"></span>
+               <h6>服務據點</h6>
+           </a>
+       </div>
+       <div class="col-xs-4" style="margin-bottom:50px;text-align:center;padding-top:15px;">
+           <a href="關於我們.html">
+               <span class="glyphicon glyphicon-info-sign" style="font-size: 30px;color:#ff6a00;" aria-hidden="true"></span>
+               <h6>關於我們</h6>
+           </a>
+       </div>
+    
+   </div>
+   
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+            <div class="container">
+
+                <!-- 上方選單 -->
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="" onclick="toggle_visibility('fullmenu-hide');">
+                        <span class="glyphicon glyphicon-th" style="font-size: 20px;"></span>
+                      
+                    </button>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">                       
+                        <a href="購物車.html">
+                            <span class="glyphicon glyphicon-shopping-cart" style="font-size:20px;"></span>
+                        </a>
+</button>
+                
+
+                    <a class="navbar-brand" href="index.html">LOGO</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav  navbar-nav navbar-right">
+                        <li>
+                            <a href="活動專區.html">活動消息</a>
+                        </li>
+                        <li>
+                            <a href="線上商城.html">線上商城</a>
+                        </li>
+                        <li>
+                            <a href="知識分享.html">知識分享</a>
+                        </li>
+
+                        <li>
+                            <a href="會員專區.html">會員專區</a>
+                        </li>
+                        <li>
+                            <a href="購物車.html">購物車</a>
+                        </li>
+
+                        <li><a href="服務據點.html">服務據點</a></li>
+
+                        <li><a href="關於我們.html">關於我們</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+    <header id="myCarousel" class="carousel slide">
+        <!-- 選轉木馬控制鈕 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 旋轉木馬 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- 第一張旋轉木馬 -->
+                <div class="fill" style="background-image:url(1.jpg);"></div>
+            </div>
+            <div class="item">
+                <!-- 第二張旋轉木馬 -->
+                <div class="fill" style="background-image:url(2.jpg);"></div>
+            </div>
+            <div class="item">
+                <!-- 第三張旋轉木馬 -->
+                <div class="fill" style="background-image:url(3.jpg);"></div>
+            </div>
+        </div>
+        <!-- 下一張旋轉木馬按鈕 -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <!-- 前一張旋轉木馬按鈕 -->
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+    <div id="fullmenu-hide" >
+       
+
+    
+
+
+        <div class="container  body-container">
+            <!-- 只是條分隔線 -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header"></h1>
+                </div>
+
+                <!-- 最新消息 -->
+                <div class="col-md-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <p class="panel-title"><i class=""></i> 最新消息</p>
+                        </div>
+                        <!-- 最新消息內容 -->
+                        <div class="panel-body">
+                            <!-- 最新消息列表 -->
+                            <table class="table AAA table-striped table-hover ">
+
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>慶祝開店 通通不用錢</td>
+                                        <td>2015-02-03</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            老闆請吃麥當勞
+                                        </td>
+                                        <td>2015-02-03</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>麥當勞歡樂送優惠</td>
+                                        <td>2015-02-03</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>大薯買一送一</td>
+                                        <td>2015-02-03</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>通通只要一塊錢</td>
+                                        <td>2015-02-03</td>
+
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                            <a href="#" class="btn btn-default">查看更多</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 最新產品 -->
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <p class="panel-title"><i class=""></i> 最新產品</p>
+                        </div>
+                        <!-- 最新產品內容 -->
+                        <div class="panel-body shop-item">
+                            <!-- 產品圖片 -->
+                            <a href="產品內容.html"><img style="height:140px;" src="detail1.jpg" alt=""></a>
+                            <!-- 產品標題 -->
+                            <h4 class="mid-text">
+                                <a href="產品內容.html">超酷炫潮T</a>
+                            </h4>
+                            <!-- 產品簡介 -->
+                            <p>穿上他抓住所有人的目光,想要跟上流行選這件就對了.</p>
+                            <!-- 產品價錢 -->
+                            <h4 class="mid-text">$2499</h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 小知識 -->
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <p class="panel-title"><i class=""></i> 小知識</p>
+                        </div>
+                        <!-- 小知識內容 -->
+                        <div class="panel-body">
+                            <p>
+                                小知識
+                            </p>
+                            <a href="#" class="btn btn-default">查看更多</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 產品履歷 -->
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <p class="panel-title"><i class=""></i> 產品履歷</p>
+                        </div>
+                        <!-- 產品履歷內容 -->
+                        <div class="panel-body mid-text">
+                            <p>想知道購買的產品的履歷嗎?</p>
+                            <p>了解產品的來龍去脈!馬上驗證</p>
+                            <a href="#" class="btn btn-lg btn-default">查看產品履歷</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 社群網站 -->
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <p class="panel-title"><i class=""></i> 社群網站</p>
+                        </div>
+                        <!-- 社群網站內容 -->
+                        <div class="panel-body mid-text">
+                            <div class="col-xs-12">
+                                <a class="btn btn-social-icon btn-twitter">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                                <a class="btn btn-social-icon btn-facebook">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a class="btn btn-social-icon btn-pinterest">
+                                    <span class="fa fa-weibo"></span>
+                                </a>
+                                <a class="btn btn-social-icon btn-twitter">
+                                    <span class="fa fa-qq"></span>
+                                </a>
+                            </div>
+
+                            <div style="margin-top:5px;" class="col-xs-12">
+                                <img src="QR.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted col-sm-4">客服信箱  xxxxxx@gmail.com</p>
+                <p class="text-muted col-sm-4">服務專線  0800-091-000</p>
+                <p class="text-mutedcol-sm-4">Copyright &copy; 2015 YenBao Rights Reserved</p>
+                <p class="text-muted col-sm-6">總部地址 台灣台中市東區東英里7鄰旱溪街386號</p>
+            </div>
+        </footer>
+    </div>
+  
+    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script type="text/javascript">
+   function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if (e.style.display == 'block') {
+           e.style.display = 'none';
+           document.getElementById('myCarousel').style.display = 'none';
+           document.getElementById('fullmenu').style.display = 'block';
+       }
+
+
+       else {
+           e.style.display = 'block';
+           document.getElementById('myCarousel').style.display = 'block';
+           document.getElementById('fullmenu').style.display = 'none';
+       }
+         
+   }
+    </script>
+
+</body>
+
+</html>
